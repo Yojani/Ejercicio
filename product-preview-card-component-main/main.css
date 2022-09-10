@@ -1,0 +1,77 @@
+body{
+	background-color: #ddd;
+	width: 500px;
+}
+
+.target{
+	position: relative;
+	left: 80%;
+	top: 100px;
+	box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	display: ;
+	transition: 0.5s;
+}
+
+.product{
+	float: left;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	margin: 0px;
+}
+.p1{
+	color: #888;
+	margin-left: 5px;
+}
+
+.p2{
+	color: #888;
+}
+
+h1{
+	font-size: 20px;
+	text-align: left;
+}
+
+.precio1{
+	color: rgba(0, 255, 150, 1.0);
+	font-size: 40px;
+	margin-right: 4px;
+}
+
+.precio-tachado{
+	color: #777;
+	text-decoration-style: unset;
+	text-decoration: line-through;
+}
+
+.car{
+	background-color: rgba(0, 150, 50, 1.0);
+	color: #eee;
+    border-radius: 10px;
+    display: block;
+    margin: 5px;
+    margin-left: 10;
+    padding: 5ppx;
+    size: 240px;
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 1.0);
+    transition: 0.3s;
+}
+
+.car:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.target:hover{
+	transform: scale(1.05, 1.05);
+}
+
+.attribution{
+	padding: 10px;
+	margin: 10px;
+	text-shadow: 1px 2px 4px;
+	text-align: right;
+	position: relative;
+	left: 30px;
+}
